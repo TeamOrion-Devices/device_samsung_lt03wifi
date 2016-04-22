@@ -77,7 +77,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # hardware/samsung/AdvancedDisplay (MDNIE)
 PRODUCT_PACKAGES += \
-     AdvancedDisplay
+    AdvancedDisplay
 
 # Filesystem management tools
 PRODUCT_PACKAGES += \
