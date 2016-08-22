@@ -10,7 +10,7 @@
         "repository": "Project-lt03wifi/kernel_lt03wifi_orbiter",
         "target_path": "kernel/samsung/lt03wifi",
 	"branch": "orbiter"
-    },
+     },
      {
         "remote": "github",
         "repository": "exynos5420/proprietary_vendor_samsung",
