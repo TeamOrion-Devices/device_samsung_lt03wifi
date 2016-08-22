@@ -17,7 +17,7 @@
 LOCAL_PATH := device/samsung/lt03wifi
 
 # inherit from the proprietary version
--include vendor/samsung/lt03wifi/BoardConfigVendor.mk
+-include vendor/samsung/lt03wifi/lt03wifi/BoardConfigVendor.mk
 
 # Platform
 BOARD_VENDOR := samsung
