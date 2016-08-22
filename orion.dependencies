@@ -1,5 +1,11 @@
 [
   {
+    "remote":      "to-d",
+    "repository":  "device_samsung_lt03wifi",
+    "target_path": "device/samdung/lt03wifi",
+    "branch":      "6.0.1"
+  },
+  {
     "remote":      "github",
     "repository":  "Project-lt03wifi/kernel_lt03wifi_orbiter",
     "target_path": "kernel/samsung/lt03wifi",
@@ -7,7 +13,7 @@
   },
   {
     "remote":      "github",
-    "repository":  "exynos5420/proprietary_vendor_samsung"     
+    "repository":  "exynos5420/proprietary_vendor_samsung",   
     "target_path": "vendor/samsung/lt03wifi",
     "branch":      "cm-13.0"
   },
