@@ -19,9 +19,9 @@
   },
   {
     "remote":      "github",
-    "repository":  "mosimchah/android_hardware_samsung",
+    "repository":  "Project-lt03wifi/android_hardware_samsung",
     "target_path": "hardware/samsung",
-    "branch":      "cm-13.0"
+    "branch":      "m6.0"
   },
   {
     "remote":      "github",
