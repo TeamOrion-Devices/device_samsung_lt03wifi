@@ -7,7 +7,7 @@
     },
     {
         "remote": "github",
-        "repository": "Project-Project-lt03wifi/kernel_lt03wifi_orbiter",
+        "repository": "Project-lt03wifi/kernel_lt03wifi_orbiter",
         "target_path": "kernel/samsung/lt03wifi",
 	"revision": "orbiter"
     },
