@@ -19,7 +19,7 @@
   },
   {
     "remote":      "github",
-    "repository":  "CyanogenMod/android_hardware_samsung",
+    "repository":  "mosimchah/android_hardware_samsung",
     "target_path": "hardware/samsung",
     "branch":      "cm-13.0"
   },
