@@ -12,8 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit some common Broken stuff.
-$(call inherit-product, vendor/broken/config/common_full_tablet_wifionly.mk)
+# Inherit some common orion stuff.
+$(call inherit-product, vendor/orion/config/common_full_tablet_wifionly.mk)
 
 # Inherit from n1awifi device
 $(call inherit-product, device/samsung/n1awifi/device.mk)
