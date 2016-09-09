@@ -1,9 +1,9 @@
 [
   {
     "remote":      "github",
-    "repository":  "Project-lt03wifi/kernel_n1awifi_orbiter",
+    "repository":  "exynos5420/android_kernel_samsung_exynos5420",
     "target_path": "kernel/samsung/n1awifi",
-    "branch":      "orbiter"
+    "branch":      "cm-13.0"
   },
   {
     "remote":      "github",
