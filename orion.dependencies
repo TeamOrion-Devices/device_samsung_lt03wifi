@@ -2,7 +2,7 @@
   {
     "remote":      "github",
     "repository":  "exynos5420/android_kernel_samsung_exynos5420",
-    "target_path": "kernel/samsung/n1awifi",
+    "target_path": "kernel/samsung/eyxnos5420",
     "branch":      "cm-13.0"
   },
   {
