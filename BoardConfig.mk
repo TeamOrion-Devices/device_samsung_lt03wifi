@@ -197,6 +197,13 @@ BOARD_ANT_WIRELESS_POWER := "bluedroid"
 # Keymaster
 BOARD_USES_TRUST_KEYMASTER := true
 
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
+
 # Wifi
 BOARD_HAVE_SAMSUNG_WIFI          := true
 BOARD_WLAN_DEVICE                := bcmdhd
