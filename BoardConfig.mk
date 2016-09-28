@@ -225,6 +225,9 @@ BOARD_HARDWARE_CLASS += hardware/samsung/cmhw
 # Fixes screen flicker
 TARGET_FORCE_SCREENSHOT_CPU_PATH := true
 
+# IR
+IR_HAS_ONE_FREQ_RANGE := true
+
 # SELinux
 BOARD_SEPOLICY_DIRS := \
     device/samsung/n1awifi/sepolicy
