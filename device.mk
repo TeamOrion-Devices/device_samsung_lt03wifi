@@ -162,8 +162,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
     frameworks/native/data/etc/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:system/etc/permissions/android.hardware.audio.low_latency.xml \
-    frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml \
-    frameworks/native/data/etc/android.software.sip.xml:system/etc/permissions/android.software.sip.xml \
     external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml
 
 # Power
@@ -181,8 +179,7 @@ PRODUCT_PACKAGES += \
 # Radio
 PRODUCT_PACKAGES += \
     libsecril-client \
-    libsecril-client-sap \
-    cbd
+    libsecril-client-sap 
 
 #PRODUCT_PACKAGES += \
 #    CellBroadcastReceiver \
@@ -223,10 +220,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # for off charging mode
 PRODUCT_PACKAGES += \
     charger_res_images
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    keyguard.no_require_sim=true \
-    ro.com.android.dataroaming=false
 
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.allow.mock.location=1 \
