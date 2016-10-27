@@ -293,7 +293,7 @@
          This needs to match the constants in
          policy/src/com/android/internal/policy/impl/PhoneWindowManager.java
    
-    <integer name="config_longPressOnMenuBehavior">Recents</integer>  -->
+    <integer name="config_longPressOnMenuBehavior">2</integer>  -->
 
      <!-- Control the behavior when the user long presses the home button.
             0 - Nothing
@@ -305,7 +305,7 @@
          This needs to match the constants in
          policy/src/com/android/internal/policy/impl/PhoneWindowManager.java  
     
-    <integer name="config_longPressOnHomeBehavior">Recents</integer>  -->
+    <integer name="config_longPressOnHomeBehavior">2</integer>  -->
 
     <!-- Control the behavior when the user double-taps the home button.
             0 - Nothing
@@ -317,7 +317,7 @@
          This needs to match the constants in
          policy/src/com/android/internal/policy/impl/PhoneWindowManager.java
     
-    <integer name="config_doubleTapOnHomeBehavior">Screenshot</integer>  -->
+    <integer name="config_doubleTapOnHomeBehavior">0</integer>  -->
 
      <!-- Bool whether to show Hardware keys settings -->
     <bool name="config_showHwKeys">true</bool>
@@ -329,5 +329,21 @@
     <!-- Max Brightness path for the capacitive hardware key lights.
            For example: "/sys/class/leds/button-backlight/max_brightness"  -->
     <string name="config_deviceHardwareKeyLightsFilePath" translatable="true">@null</string>
+
+    <!-- Bool whether to show notification slider in Universe -->
+    <bool name="config_showNotificationSlider">true</bool>
+
+    <!-- Flag indicating whether the current device allows sms service.
+         If true, this means that the device supports both sending and
+         receiving sms via the telephony network.
+         This can be overridden to false for "data only" devices
+         which can't send and receive sms message.
+
+         Note: Disable SMS also disable voicemail waiting sms,
+               cell broadcasting sms, and MMS. -->
+    <bool name="config_sms_capable">false</bool>
+
+    <!-- Shutdown if the battery temperature exceeds (this value * 0.1) Celsius. -->
+    <integer name="config_shutdownBatteryTemperature">560</integer>
 
 </resources>
