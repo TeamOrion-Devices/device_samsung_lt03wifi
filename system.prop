@@ -1,5 +1,9 @@
+#
+# system.prop for n1awifi
+#
+
 # UI
-ro.opengles.version=196609
+ro.sf.lcd_density=320
 
 # Fixes game grashing (HeartStone)
 debug.egl.force_msaa=true

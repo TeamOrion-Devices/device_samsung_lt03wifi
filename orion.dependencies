@@ -1,6 +1,12 @@
 [
   {
     "remote":      "github",
+    "repository":  "exynos5420/android_device_samsung_exynos5420-common",
+    "target_path": "device/samsung/exynos5420-common",
+    "branch":      "cm-13.0"
+  },
+  {
+    "remote":      "github",
     "repository":  "exynos5420/android_kernel_samsung_exynos5420",
     "target_path": "kernel/samsung/exynos5420",
     "branch":      "cm-13.0"
